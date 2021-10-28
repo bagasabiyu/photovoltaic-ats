@@ -22,7 +22,7 @@
   <div class="container"> 
     <a class="navbar-brand" href="#">
     </a>
-    <!-- Navbar -->
+
   </div>
 </nav>
     <a class="navbar-brand" href="#">AUTOMATIC TRANSFER SWITCH </a>
