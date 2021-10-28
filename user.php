@@ -65,7 +65,7 @@
                   <div class="card">
                   <h5 class="card-header">DATA USER</h5>
                   <div class="card-body">
-                    <table border="1" class="table text-center" style= 'background-color: white'>
+                    <table border="2" class="table text-center" style= 'background-color: white'>
                         <tr>
                             <th>No</th>
                             <th>Nama</th>
