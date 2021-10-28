@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="admin.css">  
     <link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css"> 
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> 
-    <title>Hello, world!</title>
+    <title>PV ATS</title>
   </head>
   <body>
       <!-- Navbar -->
