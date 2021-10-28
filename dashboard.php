@@ -35,16 +35,20 @@
           <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="monitoring.php">Monitoring Real Time</a>
+          <a class="nav-link active" aria-current="page" href="monitoring.php"><i class="fas fa-desktop mr-1"></i>
+          Monitoring Real Time</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Grafik</a>
+          <a class="nav-link" href="grafik.php"><i class="fas fa-chart-line mr-1"></i>
+          Grafik</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">User</a>
+          <a class="nav-link" href="user.php"><i class="fas fa-users mr-1"></i>
+          User</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Logout</a>
+          <a class="nav-link" href="logout.php"><i class="fas fa-sign-out-alt mr-1"></i>
+          Logout</a>
         </li>
       </ul>
     </div>
