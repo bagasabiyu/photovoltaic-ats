@@ -93,7 +93,7 @@
                   $y_dc   = mysqli_query($conn, 'SELECT tegangandc1 FROM ( SELECT * FROM data ORDER BY id DESC LIMIT 20) Var1 ORDER BY ID ASC');
                   ?>
                  <div class="card bg-secondary"> 
-                  <div class="panel  panel-primary col-md-15 mt-2 p-5 pt-3" style="background-color: white;">
+                  <div class="panel  panel-primary col-md-15 mt-0 p-5 pt-3" style="background-color: white;">
                     <div class="panel-heading">
                       <h3 class="panel-title"><center>Grafik Presentase</h3>
                     </div>
