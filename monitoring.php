@@ -18,7 +18,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
       <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light fixed top" style="background-color: #f56503;">
-          <a class="navbar-brand" href="#">SMART HOME SYSTEM | <b>ELECTRICAL AUTOMATION</b></a>
+          <a class="navbar-brand" href="#">SMART HOME SYSTEM | <b>ELECTRICAL</b></a>
             <form class="form-inline my-2 my-lg-0 ml-auto">
               
             </form>
