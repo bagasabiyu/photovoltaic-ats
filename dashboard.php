@@ -35,13 +35,13 @@
           <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Monitoring Real Time</a>
+          <a class="nav-link active" aria-current="page" href="monitoring.php">Monitoring Real Time</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Grafik</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">User</a>
+          <a class="nav-link" href="#">User</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled">Logout</a>
@@ -53,7 +53,7 @@
       <!-- Menubar -->
     
           <!-- ISI DASHBOARD -->
-          <div class="col-md-20 mt-0 p-5 pt-10" style="background-color:#0d4050 ;">
+          <div class="col-md-20 mt-0 p-5 pt-10" style="background-color:#AAAAAA ;">
             <ol class="breadcrumb ml-1">
               <h4><i class="fas fa-tachometer-alt mr-2"></i>DASHBOARD</h4>
               </ol>
