@@ -59,11 +59,11 @@
     
           <!-- ISI DASHBOARD -->
           <div class="col-md-20 mt-0 p-5 pt-3" style="background-color:#AAAAAA;">
-              <div id="voltatsalert" class="alert text-center alert-danger" role="alert" style="display: none;">
+              <div id="voltatsalert" class="alert text-center alert-dark" role="alert" style="display: none;">
                   Tegangan PLTS tidak ada!!!
                 </div>
 
-                <div id="voltplnalert" class="alert text-center alert-danger" role="alert" style="display: none;">
+                <div id="voltplnalert" class="alert text-center alert-dark" role="alert" style="display: none;">
                   Tegangan PLN tidak ada!!!
                 </div>
             <ol class="breadcrumb ml-1">
