@@ -79,7 +79,7 @@
                         MONITORING TEGANGAN ARUS BEBAN
                       </div>
                       <div class="card-body">
-                           <meta http-equiv="refresh" content="60">
+                           <meta http-equiv="refresh" content="100">
     
                         <?php
                             if ($conn->connect_error) {
