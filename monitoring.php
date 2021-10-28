@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="admin.css">  
     <link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css"> 
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> 
-    <title>Hello, world!</title>
+    <title>MONITORING</title>
   </head>
   <body>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
