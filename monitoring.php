@@ -37,7 +37,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="monitoring.php"><i class="fas fa-desktop mr-1"></i>
-          Monitoring Real Time</a>
+          Monitoring</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="grafik.php"><i class="fas fa-chart-line mr-1"></i>

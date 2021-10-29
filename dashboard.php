@@ -25,7 +25,7 @@
 
   </div>
 </nav>
-    <a class="navbar-brand" href="#">AUTOMATIC TRANSFER SWITCH </a>
+    <a class="navbar-brand" href="#">AUTOMATIC TRANSFER SWITCH | AUTOMATION ENGINEERING </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -36,7 +36,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="monitoring.php"><i class="fas fa-desktop mr-1"></i>
-          Monitoring Real Time</a>
+          Monitoring</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="grafik.php"><i class="fas fa-chart-line mr-1"></i>
@@ -54,7 +54,7 @@
     </div>
   </div>
 </nav>
-      <!-- Menubar -->
+
     
           <!-- ISI DASHBOARD -->
           <div class="col-md-20 mt-0 p-5 pt-10" style="background-color:#AAAAAA ;">

@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css"> 
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
       
-    <title>Hello, world!</title>
+    <title>USER</title>
   </head>
   <body>
       <!-- Navbar -->
@@ -37,7 +37,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="monitoring.php"><i class="fas fa-desktop mr-1"></i>
-          Monitoring Real Time</a>
+          Monitoring</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="grafik.php"><i class="fas fa-chart-line mr-1"></i>
