@@ -15,7 +15,12 @@
     <title>PV ATS</title>
   </head>
   <body>
-      <!-- Navbar -->
+
+  <!-- My CSS -->
+  <link rel="stylesheeet" href="style.css" />
+
+  <!-- navbar -->
+
       <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
   <div class="container-fluid">
   <nav class="navbar navbar-light bg-secondary">
@@ -140,3 +145,9 @@
       
   </body>
 </html>
+<!-- jumbotron -->
+<section class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+</section>
+<!-- Akhir jumbotron -->

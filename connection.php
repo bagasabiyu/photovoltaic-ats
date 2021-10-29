@@ -1,8 +1,8 @@
 <?php
-$servername = "sql300.epizy.com ";
-$username = "epiz_30176896";
-$password = "5PkiLWFtzMCEoh";
-$dbname = "coba";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "photovoltaic";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

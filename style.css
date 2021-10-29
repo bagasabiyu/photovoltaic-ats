@@ -60,3 +60,8 @@ label{
 	text-align: center;
 	border:1px solid #b32929;
 }
+
+.jumbotron {
+	padding: 2rem 1rem;
+	background-color: #232323;
+}
