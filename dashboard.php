@@ -15,17 +15,22 @@
     <title>PV ATS</title>
   </head>
   <body>
-      <!-- Navbar -->
+
+  <!-- My CSS -->
+  <link rel="stylesheeet" href="style.css" />
+
+  <!-- navbar -->
+
       <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
   <div class="container-fluid">
   <nav class="navbar navbar-light bg-secondary">
   <div class="container"> 
     <a class="navbar-brand" href="#">
     </a>
-    <!-- Navbar -->
+
   </div>
 </nav>
-    <a class="navbar-brand" href="#">SMART HOME SYSTEM</a>
+    <a class="navbar-brand" href="#">AUTOMATIC TRANSFER SWITCH | AUTOMATION ENGINEERING </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -36,7 +41,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="monitoring.php"><i class="fas fa-desktop mr-1"></i>
-          Monitoring Real Time</a>
+          Monitoring</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="grafik.php"><i class="fas fa-chart-line mr-1"></i>
@@ -54,7 +59,7 @@
     </div>
   </div>
 </nav>
-      <!-- Menubar -->
+
     
           <!-- ISI DASHBOARD -->
           <div class="col-md-20 mt-0 p-5 pt-10" style="background-color:#AAAAAA ;">
@@ -140,3 +145,9 @@
       
   </body>
 </html>
+<!-- jumbotron -->
+<section class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+</section>
+<!-- Akhir jumbotron -->

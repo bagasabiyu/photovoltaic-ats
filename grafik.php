@@ -31,60 +31,55 @@
       
       
       
-    <title>Hello, world!</title>
+    <title>GRAFIK</title>
   </head>
   <body>
       <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed top" style="background-color: #f56503;">
-          <a class="navbar-brand" href="#">SMART HOME SYSTEM | <b>ELECTRICAL AUTOMATION</b></a>
-            <form class="form-inline my-2 my-lg-0 ml-auto">
-           
-            </form>
-            
-            <div class="icon ml-4">
-                <h5>
-                    <i class="fas fa-envelope-open-text mr-3" data-toggle="tooltip" title="Pesan Masuk"></i>
-                    <i class="far fa-bell mr-3" data-toggle="tooltip" title="Peringatan"></i>
-                    <i class="fas fa-sign-out-alt mr-3" data-toggle="tooltip" title="Keluar"></i>
-                </h5>
-          </div>
-        </nav>
       <!-- Menubar -->
-      <div class="row no-gutters">
-          <div class="col-md-2 mt-2 pr-3 pt-4" style="background-color: #9b9693;">
-            <ul class="nav flex-column ml-2 mb-5">
-             <li class="nav-item">
-                <a class="nav-link active text-white" href="dashboard.php"><i class="fas fa-tachometer-alt mr-2"></i>
-                    Dashboard</a><hr class="secondary">
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="monitoring.php"><i class="fas fa-desktop mr-2"></i>
-                    Monitoring Real Time</a><hr class="secondary">
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="grafik.php"><i class="fas fa-chart-line mr-2"></i>
-                    Grafik</a><hr class="secondary">
-              </li>
-              <!-- 
-                <li class="nav-item">
-                <a class="nav-link text-white" href="laporan.php"><i class="fas fa-columns mr-2"></i>
-                    Laporan</a><hr class="secondary">
-              </li> -->
-                <li class="nav-item">
-                <a class="nav-link text-white" href="user.php"><i class="fas fa-users mr-2"></i>
-                    User</a><hr class="secondary">
-              </li>
-                <li class="nav-item">
-                <a class="nav-link text-white" href="logout.php"><i class="fas fa-users mr-2"></i>
-                    Logout</a><hr class="secondary">
-              </li>
-            </ul>
-          </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+  <div class="container-fluid">
+  <nav class="navbar navbar-light bg-secondary">
+  <div class="container"> 
+    <a class="navbar-brand" href="#">
+    </a>
+
+  </div>
+</nav>
+    <a class="navbar-brand" href="#">GRAFIK </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="dashboard.php">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="monitoring.php"><i class="fas fa-desktop mr-1"></i>
+          Monitoring</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="grafik.php"><i class="fas fa-chart-line mr-1"></i>
+          Grafik</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="user.php"><i class="fas fa-users mr-1"></i>
+          User</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="logout.php"><i class="fas fa-sign-out-alt mr-1"></i>
+          Logout</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
           <!-- ISI DASHBOARD -->
-              <div class="col-md-10 mt-2 p-5 pt-3" style="background-color: #0d4050;">
-                <ol class="breadcrumb ml-1">
-                  <h4><i class="fas fa-tachometer-alt mr-2"></i>GRAFIK MONITORING</h4>
-                  </ol>
+          <div class="col-md-20 mt-0 p-5 pt-10" style="background-color:#AAAAAA ;">
+            <ol class="breadcrumb ml-1">
+              <h4><i class="fas fa-tachometer-alt mr-2"></i>DASHBOARD</h4>
+              </ol>
                   <!-- kotak2 tampilan grafik-->
                     
               <?php
@@ -98,7 +93,7 @@
                   $y_dc   = mysqli_query($conn, 'SELECT tegangandc1 FROM ( SELECT * FROM data ORDER BY id DESC LIMIT 20) Var1 ORDER BY ID ASC');
                   ?>
                  <div class="card bg-secondary"> 
-                  <div class="panel  panel-primary col-md-15 mt-2 p-5 pt-3" style="background-color: white;">
+                  <div class="panel  panel-primary col-md-15 mt-0 p-5 pt-3" style="background-color: white;">
                     <div class="panel-heading">
                       <h3 class="panel-title"><center>Grafik Presentase</h3>
                     </div>
